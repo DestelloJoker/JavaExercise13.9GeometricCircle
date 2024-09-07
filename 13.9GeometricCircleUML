@@ -1,0 +1,36 @@
+-----------------------                
+   GeometricObject   
+-----------------------                 
+  String color                   
+  boolean filled                  
+-----------------------                 
+  String getColor()                 
+  boolean isFilled()                                    
+  double getArea()                                   
+  double getPerimeter()                                        
+-----------------------                                 
+           ^                                         
+           |                                            
+           |                                                                                                                                                                                                                                                                                                                              
+-----------------------                                                      
+      Comparable      
+-----------------------    
+ <<interface>>                                                             
+-----------------------                                                     
+ compareTo(Object)                                                        
+-----------------------     
+
+           ^                                         
+           |                                            
+           | 
+                                                       
+-----------------------
+        Circle         
+-----------------------
+double  radius      
+-----------------------
+ double getArea() 
+ double getPerimeter()           
+ int compareTo(Circle)             
+ boolean equals(Object)          
+-----------------------
